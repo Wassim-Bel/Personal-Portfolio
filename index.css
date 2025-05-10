@@ -1,0 +1,57 @@
+.background {
+    min-height: 1931px;
+    margin: 0;
+    background: linear-gradient(to bottom, #1a1a1a, #595959);
+}
+
+header {
+    padding-top: 50px; 
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+header a{
+    text-decoration: none;
+    color: #919191;
+    font-size: 15px;
+    font-family: 'arial';
+    font-weight: 600;
+    font-family: 'Inter';
+}
+
+header a:hover{
+    color: rgb(224, 224, 224);
+}
+
+.container1 {
+    max-width: 800px; 
+    margin: 0 auto;         
+    padding: 60px 20px 60px 20px;
+    color:#ffffff;
+    font-family: 'JetBrains Mono';
+    font-size: 13px; 
+}
+
+.intro {
+    padding-top: 25px;
+}
+
+.containerButtons button {
+    background-color: #d9d9d9; 
+    margin-top: 25px;
+    padding-top: 5px;
+    border-radius: 8px;
+    border: none;
+}
+
+.containerButtons :hover{
+    background-color: rgb(161, 161, 161);
+}
+
+.resume {
+    margin-left: 15px;
+    font-family: 'JetBrains Mono';
+    font-weight: 1000;
+    border-radius: 8px;
+}
