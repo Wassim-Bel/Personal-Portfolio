@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+    <script src="main.js"></script>
+
 </head>
 <body class="background">
     <header>
@@ -16,12 +18,13 @@
     </header>
     <div class="container1">
         <h1>Hey, Wassim here :)</h1>
-        <p class="intro">20 years old software engineering student in Calgary, AB</p>
-        <p>[enter sentences about myself]</p>
+        <p class="intro">20 year old software engineering student in Calgary, AB</p>
+        <p>[Insert sentences about myself]</p>
         <div class="containerButtons">
-            <button onclick="document.location='http://www.github.com/Wassim-Bel'"> <img width="20" src="images/github-logo.png"></button>
-            <button onclick="document.location='http://www.linkedin.com/in/wassim-belghache'"><img width="20" src="images/linkedin-logo.png"></button>
-            <button class="resume" type="submit" onclick="window.open('Wassim_Belghache_resume.pdf')">resume</button>
+            <button onclick="document.location='http://www.github.com/Wassim-Bel'"> <img width="17" src="images/github-logo.png"></button>
+            <button onclick="document.location='http://www.linkedin.com/in/wassim-belghache'"><img width="17" src="images/linkedin-logo.png"></button>
+            <button class="resume" type="submit" onclick="window.open('Wassim_Belghache_resume.pdf')"> Resume <img width="15" src="images/download-logo.png"></button>
+            <p id="email" onclick="copyEmail()" class="email-copy"> wassim.belghache@ucalgary.ca </p>
         </div>
     </div>
 </body>

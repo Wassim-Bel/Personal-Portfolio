@@ -37,21 +37,44 @@ header a:hover{
     padding-top: 25px;
 }
 
-.containerButtons button {
-    background-color: #d9d9d9; 
+.containerButtons {
+    padding-top: 20px;
+    display: flex;       /* Make buttons align side by side */
+    gap: 8px;           /* Optional: space between them */
     margin-top: 25px;
-    padding-top: 5px;
-    border-radius: 8px;
+  }
+  
+.containerButtons button {
+    background-color: #d9d9d9;
     border: none;
+    border-radius: 6px;
+    padding: 5px 5px;
+    display: flex;
+    align-items: center; /* Center vertically */
+    gap: 8px;            /* Space between icon and text */
+    cursor: pointer;
 }
 
-.containerButtons :hover{
+.containerButtons button:hover {
     background-color: rgb(161, 161, 161);
 }
 
 .resume {
-    margin-left: 15px;
-    font-family: 'JetBrains Mono';
+    font-family: 'JetBrains Mono', monospace;
     font-weight: 1000;
-    border-radius: 8px;
+    margin-left: 10px;
 }
+
+.email-copy {
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 12px;
+    text-decoration: underline;
+    color: #acacac;
+}
+
+.email-copy :hover{
+    color: rgb(224, 224, 224);
+    cursor: pointer;
+}
+
