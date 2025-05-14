@@ -98,7 +98,67 @@ header a:hover{
     opacity: 1;
 }
 
-  
+.container2 {
+    width: 755px;
+    height: 700px;
+    background: linear-gradient(to bottom, #4a4a4a, #313131); 
+    margin: 50px auto;
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+    font-family: 'JetBrains Mono', monospace;
+    animation: fade-down 0.5s;
+}
+
+.container2-1 {
+    margin-top: 50px;
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    display: flex;
+    gap: 10px;
+    z-index: 2;
+}
+
+.tab-1, .tab-2 {
+    padding-left: 10px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+    padding-top: 11px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 1000;
+}
+
+/* Individual styling */
+.tab-1 {
+    background-color: #a0a0a0;
+    color: #383838;
+    margin-left: 30px;
+}
+
+.tab-2 {
+    background-color: #777777;
+    color: #d0d0d0;
+    margin-left: 10px;
+}
+
+.container2-2 {
+    width: 695px;
+    height: 600px;
+    background: #a0a0a0; /* light grey, adjust as needed */
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+    font-family: 'JetBrains Mono', monospace;
+    z-index: 3;
+  }
+
+  /* Keyframes */
 @keyframes fade-down {
     0% {
         opacity: 0;
