@@ -158,6 +158,25 @@ header a:hover{
     z-index: 3;
   }
 
+.tab-pane {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.active-tab {
+    background-color: #a0a0a0 !important;
+    color: #383838 !important;
+}
+
+.tab-1:not(.active-tab),
+.tab-2:not(.active-tab) {
+    background-color: #777777;
+    color: #d0d0d0;
+}
+
   /* Keyframes */
 @keyframes fade-down {
     0% {
