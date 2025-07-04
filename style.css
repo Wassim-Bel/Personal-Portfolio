@@ -148,7 +148,7 @@ header a:hover{
 .container2-2 {
     width: 695px;
     height: 600px;
-    background: #a0a0a0; /* light grey, adjust as needed */
+    background: #a0a0a0;
     margin-top: 50px;
     margin-left: 10px;
     border-radius: 12px;
@@ -175,6 +175,53 @@ header a:hover{
 .tab-2:not(.active-tab) {
     background-color: #777777;
     color: #d0d0d0;
+}
+
+.container3 {
+    width: 755px;
+    height: 270px;
+    background: linear-gradient(to bottom, #313131, #1d1d1d); 
+    margin: 50px auto;
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+    font-family: 'JetBrains Mono', monospace;
+    animation: fade-down 0.5s;
+}
+
+.home-buttons:hover {
+    cursor: pointer;
+    background-color: rgb(128, 128, 128);
+}
+
+.home-buttons {
+    display: flex;
+    margin-left: 10px;
+    gap: 430px;
+    background: #a0a0a0;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 12px;
+    position: relative;
+    font-family: 'JetBrains Mono', monospace;
+    z-index: 3;
+    outline: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: none;
+
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 1000;
+    margin-left: 10px;
+    font-size: 200%;
+    color: #383838;
+}
+
+.contact-button {
+    margin-top: 30px;
+    gap: 450px;
 }
 
   /* Keyframes */
